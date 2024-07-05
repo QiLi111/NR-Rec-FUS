@@ -1,0 +1,16 @@
+{
+    "min_scan_len": 108,
+    "filename": "",
+    "indices_in_use": [
+        [
+            7,
+            0
+        ],
+        [
+            8,
+            0
+        ]
+    ],
+    "num_samples": 100,
+    "sample_range": 100
+}
