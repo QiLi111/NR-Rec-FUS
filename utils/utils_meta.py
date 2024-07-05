@@ -21,8 +21,8 @@ import sys
 sys.path.append(os.getcwd()+'/utils')
 
 # from monai.networks.nets.voxelmorph import VoxelMorphUNet, VoxelMorph
-from monai.networks.nets import VoxelMorph
-from monai.losses import BendingEnergyLoss
+from utils.monai.networks.nets import VoxelMorph
+from utils.monai.losses import BendingEnergyLoss
 
 def compute_dimention(label_pred_type,num_points_each_frame=None,num_frames=None,type_option=None):
     if type_option == 'pred':
@@ -1001,7 +1001,7 @@ class Train_Rec_Reg_Model():
                 torch.save(self.model.state_dict(), os.path.join(self.opt.SAVE_PATH, 'saved_model', 'best_val_dist_T_R_T' ))
                 torch.save(self.VoxelMorph_net.state_dict(), os.path.join(self.opt.SAVE_PATH, 'saved_model', 'best_val_dist_T_R_R' ))
 
-            print('Best val dist T_T parameters saved.')
+            print('Best val dist T_R parameters saved.')
 
     def save_best_models_val_R_T(self,epoch,running_dist):
         if running_dist < self.val_dist_min_R_T:

@@ -15,7 +15,7 @@ from utils.utils_meta import *
 import sys
 sys.path.append(os.getcwd()+'/utils')
 # from monai.networks.nets.voxelmorph import VoxelMorphUNet, VoxelMorph
-from monai.networks.nets import VoxelMorph
+from utils.monai.networks.nets import VoxelMorph
 
 
 class Visualizer_plot_volume():  # plot scan
