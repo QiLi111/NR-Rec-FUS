@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 ## Data
 This repository contains a few samples of the full data set.
-The full data set is available [here](https://zenodo.org/doi/10.5281/zenodo.11178508), associated with the TUS-REC Challenge, MICCAI 2024. We have reorganised the data set to provide a clearer data structure. For more information, please visit the [Challenge website](https://github-pages.ucl.ac.uk/tus-rec-challenge/). 
+The full data set is available [here](https://zenodo.org/doi/10.5281/zenodo.11178508), associated with the TUS-REC Challenge, MICCAI 2024. We have reorganised the data set to provide a clearer data structure. For more information, please visit the [Challenge website](https://github-pages.ucl.ac.uk/tus-rec-challenge/) and [GitHub repo](https://github.com/QiLi111/tus-rec-challenge_baseline). 
 
 
 The example data set is stored in a `.h5` file, including train (6 scans), val (2 scans), and test (2 scans) sets. The indices of samped scans are indicated by `.json` files. The following shows the data structure.
