@@ -1,7 +1,7 @@
 
 # Nonrigid Reconstruction of Freehand Ultrasound without a Tracker (MICCAI2024)
 
-This repository is the official implementation for "Nonrigid Reconstruction of Freehand Ultrasound without a Tracker". It contains algorithms for freehand ultrasound reocnstruction, simultaneously estimating rigid transformations among US frames and a nonrigid deformation, optimised by a regularised registration network.
+This repository is the official implementation for "[Nonrigid Reconstruction of Freehand Ultrasound without a Tracker](https://arxiv.org/abs/2407.05767)". It contains algorithms for freehand ultrasound reocnstruction, simultaneously estimating rigid transformations among US frames and a nonrigid deformation, optimised by a regularised registration network.
 
 ## Install conda environment
 ``` bash
